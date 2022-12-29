@@ -35,9 +35,11 @@ public:
 	}
 	virtual void Jump() {
 		cout << "Human is jumping" << endl;
+		GetJumpHeight();
 	}
 	virtual void Run() {
 		cout << "Human is running" << endl;
+		GetStamina();
 	}
 };
 
@@ -49,9 +51,11 @@ public:
 	}
 	virtual void Jump() {
 		cout << "Robot is jumping" << endl;
+		GetJumpHeight();
 	}
 	virtual void Run() {
 		cout << "Robot is running" << endl;
+		GetStamina();
 	}
 };
 
@@ -64,8 +68,10 @@ public:
 	}
 	virtual void Jump() {
 		cout << "Cat is jumping" << endl;
+		GetJumpHeight();
 	}
 	virtual void Run() {
 		cout << "Cat is running" << endl;
+		GetStamina();
 	}
 };
